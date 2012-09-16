@@ -1,0 +1,23 @@
+{
+	"name": "Primal/Cache",
+	"description": "Collection of classes for handling caching of data via multiple data stores",
+	"homepage": "http://github.com/Primal/Uploaded",
+	"license": "MIT",
+	"keywords": ["cache", "APC"],
+	"authors": [
+		{
+			"name": "Jarvis Badgley",
+			"homepage": "http://chipersoft.com",
+			"email": "primal@chipersoft.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.10"
+	},
+	"type": "library",
+	"autoload": {
+        "psr-0": {
+            "Primal\\Cache": "lib\/"
+        }
+    }
+}
